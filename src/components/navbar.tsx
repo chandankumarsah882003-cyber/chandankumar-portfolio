@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { getSiteContent } from "@/lib/content-store";
 
 const navItems = [
   { href: "/", label: "Home" },
@@ -6,12 +7,14 @@ const navItems = [
   { href: "/projects", label: "Projects" }
 ];
 
-export default function Navbar() {
+export default async function Navbar() {
+  const content = await getSiteContent();
+
   return (
     <header className="sticky top-0 z-40 border-b border-slate-200 bg-white/95 backdrop-blur">
       <nav className="section-shell flex h-16 items-center justify-between">
         <Link href="/" className="text-sm font-semibold tracking-tight text-slate-900 sm:text-base">
-          Chandankumar
+          {content.branding.siteTitle}
         </Link>
 
         <ul className="flex items-center gap-5 text-sm text-slate-700">

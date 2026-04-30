@@ -1,0 +1,83 @@
+{
+  "branding": {
+    "siteTitle": "Chandankumar"
+  },
+  "home": {
+    "badge": "Personal Portfolio",
+    "title": "Chandankumar shares practical insights for growth and meaningful work.",
+    "subtitle": "Helping people learn faster, build better habits, and turn experience into repeatable progress.",
+    "quickIntroTitle": "Quick Introduction",
+    "quickIntroText": "Chandankumar is a builder and lifelong learner focused on sharing practical lessons from real projects. This section will highlight his journey and experiences.",
+    "highlightsTitle": "Highlights / Work Preview",
+    "highlightsSubtitle": "A quick look at current focus areas and ongoing work.",
+    "highlights": [
+      {
+        "title": "Audience Growth Playbook",
+        "description": "A practical framework for turning content into consistent subscriber growth."
+      },
+      {
+        "title": "Learning Sprint Journal",
+        "description": "Weekly notes that document experiments, lessons, and measurable progress."
+      },
+      {
+        "title": "Creator Systems Setup",
+        "description": "A simple operating system for publishing quality work without burnout."
+      }
+    ],
+    "heroImageUrl": "",
+    "heroVideoUrl": ""
+  },
+  "about": {
+    "pageTitle": "About Me",
+    "pageSubtitle": "This page shares the story, values, and direction behind the work.",
+    "personalStoryTitle": "Personal Story",
+    "personalStoryText": "This section will highlight my journey and experiences. It will explain what inspired me to start building projects and sharing what I learn with others.",
+    "journeyTitle": "Journey / Background",
+    "journeyText": "The background details will be expanded soon, including key milestones, lessons from challenges, and how each phase shaped my current approach to growth and execution.",
+    "valuesTitle": "Values / Interests",
+    "valuesText": "I value clarity, consistency, and real-world impact. My interests include learning systems, writing, and creating practical resources that help people move forward with confidence.",
+    "imageUrl": "",
+    "videoUrl": ""
+  },
+  "projects": {
+    "pageTitle": "Projects",
+    "pageSubtitle": "Details about these projects will be expanded soon with deeper case studies.",
+    "items": [
+      {
+        "title": "Newsletter Growth Dashboard",
+        "problem": "Tracking subscriber trends manually consumed too much time.",
+        "workDone": "Built a clean dashboard prototype to visualize growth metrics weekly.",
+        "outcome": "Faster decisions and better clarity on content performance."
+      },
+      {
+        "title": "Learning Library System",
+        "problem": "Useful lessons from books and projects were scattered across notes.",
+        "workDone": "Created a structured personal knowledge workflow with reusable templates.",
+        "outcome": "Improved recall and easier publishing of practical insights."
+      },
+      {
+        "title": "Creator Workflow Optimization",
+        "problem": "Content creation lacked consistency and clear publishing rhythm.",
+        "workDone": "Designed a repeatable weekly process for planning, writing, and review.",
+        "outcome": "More consistent output and less decision fatigue."
+      },
+      {
+        "title": "Community Feedback Loop",
+        "problem": "Audience questions were not feeding back into future content.",
+        "workDone": "Set up a lightweight feedback collection and prioritization process.",
+        "outcome": "Better topic relevance and stronger trust with readers."
+      }
+    ]
+  },
+  "newsletter": {
+    "compactTitle": "Subscribe to the weekly newsletter",
+    "compactDescription": "Short, actionable notes delivered every week.",
+    "compactButtonText": "Subscribe weekly",
+    "homeTitle": "Get weekly insights on growth, learning, and real experiences",
+    "homeDescription": "Each email includes honest lessons, useful frameworks, and practical next steps.",
+    "homeButtonText": "Join the newsletter",
+    "aboutTitle": "Stay updated with weekly ideas and experiences",
+    "aboutDescription": "Newsletter launching soon. Stay tuned.",
+    "aboutButtonText": "Subscribe now"
+  }
+}
