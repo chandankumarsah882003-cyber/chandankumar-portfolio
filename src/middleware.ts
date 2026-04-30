@@ -2,6 +2,10 @@ import { NextRequest, NextResponse } from "next/server";
 import { getAdminCookieName } from "@/lib/admin-auth";
 
 export async function middleware(request: NextRequest) {
+  if (request.nextUrl.pathname === "/admin/login") {
+    return NextResponse.next();
+  }
+
   const isAdminPath = request.nextUrl.pathname.startsWith("/admin");
   const isAdminApiPath = request.nextUrl.pathname.startsWith("/api/admin/content");
 
