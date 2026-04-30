@@ -1,4 +1,5 @@
 import NewsletterForm from "@/components/newsletter-form";
+import Image from "next/image";
 import { getSiteContent } from "@/lib/content-store";
 
 export default async function AboutPage() {
@@ -18,7 +19,14 @@ export default async function AboutPage() {
           <h2 className="text-2xl font-semibold text-slate-900">{about.personalStoryTitle}</h2>
           <p className="mt-3 text-slate-700">{about.personalStoryText}</p>
           {about.imageUrl ? (
-            <img src={about.imageUrl} alt="About section visual" className="mt-5 w-full rounded-xl object-cover" />
+            <Image
+              src={about.imageUrl}
+              alt="About section visual"
+              width={1200}
+              height={675}
+              unoptimized
+              className="mt-5 h-auto w-full rounded-xl object-cover"
+            />
           ) : null}
           {about.videoUrl ? <video src={about.videoUrl} controls className="mt-5 w-full rounded-xl" /> : null}
         </section>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import NewsletterForm from "@/components/newsletter-form";
 import { getSiteContent } from "@/lib/content-store";
 
@@ -32,7 +33,14 @@ export default async function HomePage() {
           <h2 className="text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">{home.quickIntroTitle}</h2>
           <p className="mt-4 text-slate-700">{home.quickIntroText}</p>
           {home.heroImageUrl ? (
-            <img src={home.heroImageUrl} alt="Home section visual" className="mt-5 w-full rounded-xl object-cover" />
+            <Image
+              src={home.heroImageUrl}
+              alt="Home section visual"
+              width={1200}
+              height={675}
+              unoptimized
+              className="mt-5 h-auto w-full rounded-xl object-cover"
+            />
           ) : null}
           {home.heroVideoUrl ? (
             <video src={home.heroVideoUrl} controls className="mt-5 w-full rounded-xl" />
